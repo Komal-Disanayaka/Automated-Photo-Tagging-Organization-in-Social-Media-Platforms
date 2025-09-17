@@ -56,7 +56,7 @@ Each group member handled **one unique preprocessing step**, ensuring a clean an
 
 ---
 
-### 👤 Member 1 – Encoding Categorical Variables
+### 👤 Member 1 : IT24102240 – Encoding Categorical Variables
 - **Problem:** The LFW dataset provides labels as text (e.g., `"person_1"`, `"person_2"`). Machine learning algorithms like SVM cannot work directly with text.  
 - **Solution:** We applied **Label Encoding** to convert text labels into numerical values (e.g., `"person_1" → 0`, `"person_2" → 1`).  
 - **Why Important:** Enables the model to learn class mappings in a numerical format.  
@@ -64,7 +64,7 @@ Each group member handled **one unique preprocessing step**, ensuring a clean an
 
 ---
 
-### 👤 Member 2 – Face Detection & Cleaning
+### 👤 Member 2 : IT24102217 – Face Detection & Cleaning
 - **Problem:** Raw images may include background noise or non-face regions.  
 - **Solution:**  
   - Converted images to **grayscale** (reduces computation).  
@@ -78,7 +78,7 @@ Each group member handled **one unique preprocessing step**, ensuring a clean an
 
 ---
 
-### 👤 Member 3 – Outlier Detection / Removal
+### 👤 Member 3 : IT24102314 – Outlier Detection / Removal
 - **Problem:** Some detected faces may still be **too dark, too bright, or unusual**.  
 - **Solution:**  
   - Calculated **mean pixel intensity** and **variance** for each image.  
@@ -89,7 +89,7 @@ Each group member handled **one unique preprocessing step**, ensuring a clean an
 
 ---
 
-### 👤 Member 4 – Normalization / Scaling (StandardScaler)
+### 👤 Member 4 : IT24102267 – Normalization / Scaling (StandardScaler)
 - **Problem:** Raw pixel values range from **0–255**. Features with large ranges can dominate, making it difficult for algorithms like SVM and PCA to perform well.  
 - **Solution:** Applied **StandardScaler** from scikit-learn:  
   - Transforms features so that each has **mean = 0** and **standard deviation = 1**.  
@@ -101,7 +101,7 @@ Each group member handled **one unique preprocessing step**, ensuring a clean an
 
 ---
 
-### 👤 Member 5 – Feature Engineering (PCA – Dimensionality Reduction)
+### 👤 Member 5 : IT24102313 –  Feature Engineering (PCA – Dimensionality Reduction)
 - **Problem:** Each face image (50×50) results in **2500 features**, which is very high-dimensional. High-dimensional data causes longer training time and risk of overfitting.  
 - **Solution:**  
   - Applied **Principal Component Analysis (PCA)** to reduce features (e.g., 2500 → 100).  
@@ -116,7 +116,7 @@ Each group member handled **one unique preprocessing step**, ensuring a clean an
 
 ---
 
-### 👤 Member 6 – Feature Selection / Correlation Analysis
+### 👤 Member 6 : IT24102310 – Feature Selection / Correlation Analysis
 - **Problem:** Some pixel features are redundant (e.g., background pixels with very little variance).  
 - **Solution:**  
   - Applied **VarianceThreshold** to remove low-variance features.  
