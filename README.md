@@ -134,5 +134,28 @@ After completing all preprocessing steps, we saved:
 - `data.npy` → Processed face features (scaled, cleaned, and reduced).  
 - `target.npy` → Encoded labels (numeric categories for each person).  
 
-These files are used in training the **SVM + PCA pipeline** for face recognition.
+These files are used in training the **Support Vector Machine ** for face recognition.
+
+---
+
+## ⚙️ How to Run the Code (Data Preprocessing Only)
+
+Our preprocessing pipeline was implemented in **Jupyter Notebook** for better visualization and step-by-step explanation.  
+Follow these steps to reproduce our preprocessing results and generate the final dataset (`data.npy` and `target.npy`).
+
+---
+
+## ⚙️ How to Run the Code (Data Preprocessing)
+
+Our preprocessing pipeline was implemented in **Jupyter Notebook** for better visualization and step-by-step explanation.  
+Follow these steps to reproduce our preprocessing results and generate the final dataset (`data.npy` and `target.npy`).
+
+---
+
+### 1️⃣ Open Jupyter Notebook
+Launch Jupyter from your project directory:
+```bash
+jupyter notebook
+
+
 
