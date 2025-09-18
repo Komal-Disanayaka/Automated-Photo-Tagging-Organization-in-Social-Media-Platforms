@@ -146,9 +146,10 @@ Follow these steps to reproduce our preprocessing results and generate the final
 ---
 
 ### 1️⃣ Open Jupyter Notebook
-Launch Jupyter from your project directory:
-```bash
-jupyter notebook
+Navigate to the project folder and launch Jupyter
 
+### 2️⃣ In the Jupyter interface, open:
+group_pipeline.ipynb
 
-
+### 3️⃣ Run All Cells
+Execute the notebook cells in sequence (Shift + Enter).
