@@ -138,13 +138,6 @@ These files are used in training the **Support Vector Machine ** for face recogn
 
 ---
 
-## ⚙️ How to Run the Code (Data Preprocessing Only)
-
-Our preprocessing pipeline was implemented in **Jupyter Notebook** for better visualization and step-by-step explanation.  
-Follow these steps to reproduce our preprocessing results and generate the final dataset (`data.npy` and `target.npy`).
-
----
-
 ## ⚙️ How to Run the Code (Data Preprocessing)
 
 Our preprocessing pipeline was implemented in **Jupyter Notebook** for better visualization and step-by-step explanation.  
