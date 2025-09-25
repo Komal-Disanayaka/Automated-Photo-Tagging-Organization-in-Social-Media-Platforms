@@ -64,17 +64,18 @@ Each group member handled **one unique preprocessing step**, ensuring a clean an
 
 ---
 
-### 👤 Member 2 : IT24102217 – Face Detection & Cleaning
-- **Problem:** Raw images may include background noise or non-face regions.  
+### 👤 Member 2 : IT24102217 – Face Detection & Cleaning  
+- **Problem:** Dataset contained **unreadable images** and **photos without detectable faces**, introducing noise.  
 - **Solution:**  
-  - Converted images to **grayscale** (reduces computation).  
-  - Applied **Haar Cascade Classifier** to detect faces.  
-  - Cropped and resized detected faces to **50×50 pixels**.  
-  - Manual filtering:  
-    - Press **`y`** → keep valid face (added to dataset).  
-    - Press any other key → discard (added to invalid list).  
-- **Why Important:** Ensures only clean, valid face images are included. Prevents noisy data from hurting accuracy.  
-- **Visualization:** Bar chart comparing **valid vs invalid faces**.  
+  - Skipped unreadable images.  
+  - Converted images to **grayscale** for consistent detection.  
+  - Used **Haar Cascade** to detect faces.  
+  - Cropped detected face regions and **resized to 50×50**.  
+  - Added only **valid face images** to the dataset.  
+- **Why Important:** Ensures the dataset has **clean, standardized face-only data**, improving training reliability and reducing errors.  
+- **Visualization:** Bar chart showing **valid faces collected** vs. **skipped images** (due to load error / no face).  
+
+--- 
 
 ---
 
