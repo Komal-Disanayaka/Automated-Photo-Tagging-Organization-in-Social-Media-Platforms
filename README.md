@@ -165,10 +165,6 @@ Then open `http://127.0.0.1:5000` in your browser.
 - OpenFace project — for the face embedding model
 - OpenCV — for DNN and image processing utilities
 
-## License
-
-This project does not include a license file; add one if you plan to publish or share the code. A common choice is the MIT license.
-
 ---
 
 
